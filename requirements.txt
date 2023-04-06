@@ -3,3 +3,4 @@ keras==2.12.0
 nltk==3.8.1
 numpy
 gunicorn
+pyodbc

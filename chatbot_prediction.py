@@ -7,5 +7,5 @@ def prediction(query):
     try:
         res = chatbot_response(query)
         return res
-    except as e:
-        print(e)
+    except BaseException as e:
+        print(str(e))

@@ -7,5 +7,5 @@ def prediction(query):
     try:
         res = chatbot_response(query)
         return res
-    except:
-        print('You may need to rephrase your question.')
+    except as e:
+        print(e)

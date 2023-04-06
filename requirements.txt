@@ -2,7 +2,7 @@ Flask==2.2.3
 keras==2.12.0
 nltk==3.8.1
 numpy
-pyodbc==4.0.35
+pyodbc==4.0.33
 gunicorn
 unixodbc-dev==2.3.9
 

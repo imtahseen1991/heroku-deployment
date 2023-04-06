@@ -5,3 +5,4 @@ numpy
 gunicorn
 pyodbc
 tensorflow-cpu
+nltk

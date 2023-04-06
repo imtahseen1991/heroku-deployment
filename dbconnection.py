@@ -9,7 +9,7 @@ Database name: Assignment3_Flask
 
 import pyodbc
 import logging
-logging.basicConfig(filename='C:/Users/imtah/Documents/ai_in_es/Final_project_chatbot/logs/dbconnection.log', encoding='utf-8', level=logging.INFO)
+logging.basicConfig(filename='/logs/dbconnection.log', encoding='utf-8', level=logging.INFO)
 
 
 def connection():

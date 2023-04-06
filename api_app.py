@@ -14,13 +14,13 @@ cursor = connection()
 # create logger for chatbot.log
 chatbot_logger = logging.getLogger('chatbot')
 chatbot_logger.setLevel(logging.INFO)
-chatbot_file_handler = logging.FileHandler('C:/Users/imtah/Documents/ai_in_es/Final_project_chatbot/logs/chatbot.log')
+chatbot_file_handler = logging.FileHandler('logs/chatbot.log')
 chatbot_logger.addHandler(chatbot_file_handler)
 
 # create logger for all other logs
 other_logger = logging.getLogger('other')
 other_logger.setLevel(logging.INFO)
-other_file_handler = logging.FileHandler('C:/Users/imtah/Documents/ai_in_es/Final_project_chatbot/logs/dbconnection.log')
+other_file_handler = logging.FileHandler('logs/dbconnection.log')
 other_logger.addHandler(other_file_handler)
 
 app = Flask(__name__)

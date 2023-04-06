@@ -4,4 +4,4 @@ nltk==3.8.1
 numpy
 gunicorn
 pyodbc
-keras
+tensorflow
